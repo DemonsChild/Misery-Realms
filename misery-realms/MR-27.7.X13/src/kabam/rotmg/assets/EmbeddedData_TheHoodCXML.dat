@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+	<Object type="0x45GH" id="The Hood Key">
+      <Class>Equipment</Class>
+      <Item/>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x8f</Index>
+      </Texture>
+      <SlotType>10</SlotType>
+      <Description>A key which opens an entrance to The Hood.\n\nKeys can only be used once you have 10 or more stars!</Description>
+      <Sound>use_key</Sound>
+      <Consumable/>
+      <Soulbound/>
+      <Activate id="The Hood Portal">Create</Activate>
+      <feedPower>200</feedPower>
+      <BagType>5</BagType>
+      <Track/>
+   </Object>
+   <Object type="0x334E" id="hoodpunch">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x9a</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x7B3Y" id="bulletglock">
+    <Class>Projectile</Class>
+    <Texture>
+      <File>lofiObj6</File>
+      <Index>0x8c</Index>
+    </Texture>
+    <AngleCorrection>1</AngleCorrection>
+  </Object>
+  <Object type="0x5GH8" id="Headlock Henry">
+      <Enemy/>
+      <Class>Character</Class>
+      <Flying/>
+      <Quest/>
+      <God/>
+      <StasisImmune/>
+	  <StunImmune/>
+      <AnimatedTexture>
+         <File>chars16x16rEncounters</File>
+         <Index>138</Index>
+      </AnimatedTexture>
+      <HitSound>monster/dark_elves_hit</HitSound>
+      <DeathSound>monster/dark_elves_death</DeathSound>
+      <MaxHitPoints>130000</MaxHitPoints>
+      <Size>170</Size>
+      <Defense>60</Defense>
+      <XpMult>0.7</XpMult>
+      <Projectile id="0">
+        <ObjectId>bulletglock</ObjectId>
+        <Damage>55</Damage>
+        <Speed>180</Speed>
+        <ArmorPiercing/>
+	    <MultiHit/>
+        <LifetimeMS>1800</LifetimeMS>
+      </Projectile>
+	  <Projectile id="1">
+        <ObjectId>bulletglock</ObjectId>
+        <Damage>100</Damage>
+        <Speed>125</Speed>
+        <LifetimeMS>4000</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x55HU" id="Gangster">
+      <Enemy/>
+      <Class>Character</Class>
+      <Texture>
+         <File>chars8x8dEncounters</File>
+         <Index>0x64</Index>
+      </Texture>
+      <HitSound>monster/dark_elves_hit</HitSound>
+      <DeathSound>monster/dark_elves_death</DeathSound>
+      <Size>100</Size>
+      <MaxHitPoints>850</MaxHitPoints>
+      <Defense>15</Defense>
+      <Flying/>
+      <Projectile id="0">
+         <ObjectId>hoodpunch</ObjectId>
+         <Damage>25</Damage>
+         <Speed>10</Speed>
+         <LifetimeMS>100</LifetimeMS>
+      </Projectile>
+   </Object>
+   <Object type="0x065T" id="The Hood Portal">
+      <Class>Portal</Class>
+      <IntergamePortal/>
+      <DisplayId>The Hood</DisplayId>
+      <DungeonName>The Hood</DungeonName>
+      <Texture>
+         <File>lofiObj6</File>
+         <Index>0x99</Index>
+      </Texture>
+   </Object>

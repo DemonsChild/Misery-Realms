@@ -1,0 +1,32 @@
+{
+  "dbInfo": {
+    "host": "127.0.0.1",
+    "port": "6379",
+    "auth": "Miserygay1100%",
+    "index": "0"
+  },
+  "serverInfo": {
+    "type": "World",
+    "name": "MiseryRealms",
+    "address": "52.224.221.222",
+    "port": "2050",
+    "coordinates": {
+      "latitude": "0",
+      "longitude": "0"
+    },
+    "adminOnly": "false"
+  },
+  "serverSettings": {
+    "logFolder": "./logs",
+    "resourceFolder": "./resources",
+    "version": "1.0.0",
+    "tps": "10",
+    "mode": "Single",
+    "key": "B1A5ED",
+    "maxConnections": "512",
+    "maxPlayers": "160",
+    "maxPlayersWithPriority": "180",
+    "enablePets": "false",
+    "enableMarket": "true"
+  }
+}
